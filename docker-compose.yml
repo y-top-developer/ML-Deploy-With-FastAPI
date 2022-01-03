@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ml_deploy_object_detection:
+    container_name: ml_deploy_object_detection
+    build: .
+    restart: always
+    ports:
+        - "80:80"
